@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New tab</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="index.css"/>
+    <script src="./js/lib/dayjs.min.js"></script>
+</head>
+<body class="container">
+    <div class="sub-container">
+        <div class="box">
+            <label>
+                <input id="search" type="text" placeholder="Search...">
+            </label>
+        </div>
+        <div class="box">
+            <h3 id="quote"></h3>
+            <h4 id="author"></h4>
+        </div>
+        <div class="box container">
+            <img id="custom-img" src="./assets/ganyu.jpg" alt="">
+        </div>
+    </div>
+    <div class="sub-container">
+        <div class="box">
+            <h2 id="date"></h2>
+            <h1 id="time"></h1>
+        </div>
+        <div class="box">
+            <img id="random" src="https://picsum.photos/300" alt="There is no internet connection to get the image"/>
+        </div>
+    </div>
+<script src="./js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-color: #3B4252;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+}
+
+h2 {
+    font-size: medium;
+}
+
+h3 {
+    font-size: 20px;
+    max-width: inherit;
+}
+
+#random {
+    border-radius: 10px;
+    max-width: 300px;
+    max-height: 300px;
+    min-width: 300px;
+    min-height: 300px;
+}
+
+input {
+    width: 30rem;
+    height: 1.5rem;
+    background-color: inherit;
+    border: none;
+    color: white;
+    font-size: large;
+    justify-self: flex-start;
+}
+
+input:focus {
+    outline-style: none;
+}
+
+input::placeholder {
+    color: #3B4252;
+}
+
+#custom-img {
+    border-radius: 10px;
+    max-width: 30rem;
+    max-height: 16.3rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-container {
+    height: 554px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    background-color: #88C0D0;
+    padding: 15px;
+    margin: 8px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box > #quote {
+    width: 30rem;
+}
+
+.box > #author {
+    font-style: italic;
+    text-align: end;
+}
